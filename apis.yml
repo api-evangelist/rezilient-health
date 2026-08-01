@@ -1,7 +1,18 @@
 aid: rezilient-health
 name: Rezilient Health
-description: Rezilient Health is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rezilient Health is an employer-sponsored primary and specialty care provider
+  that combines physical CloudClinics with telehealth to deliver unlimited,
+  zero-cost care to employees on behalf of employers, health plans, health
+  systems, and brokers. Its hybrid CloudClinic model pairs on-site medical staff
+  with remote physicians and connected diagnostic equipment so members can access
+  in-person and virtual visits, with the goal of lowering total healthcare spend
+  and improving clinical outcomes. Rezilient offers patient-facing web and mobile
+  apps for scheduling and care, but publishes no public developer portal, API,
+  SDK, or documentation surface. This profile was surfaced as a Techstars
+  portfolio company and enriched by the API Evangelist pipeline; the honest result
+  is that Rezilient operates a consumer/enterprise healthcare service rather than a
+  developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/rezilient-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,29 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67b67cfa5a4be7178ec745a8/67e079e9346261a59c2be2c4_OG_patient%20LP.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Digital Health
+- Primary Care
+- Telehealth
+- Employer Benefits
+- Hybrid Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://rezilienthealth.com/
+- type: About
+  url: https://rezilienthealth.com/company/about-us
+- type: Blog
+  url: https://rezilienthealth.com/for-patients/blog
+- type: Support
+  url: https://rezilienthealth.com/for-patients/contact-member-support
+- type: Login
+  url: https://app.rezilienthealth.com/auth/signin
+- type: PrivacyPolicy
+  url: https://rezilienthealth.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://rezilienthealth.com/legal/platform-tos
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rezilienthealth
+- type: DomainSecurity
+  url: security/rezilient-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
