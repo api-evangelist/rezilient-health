@@ -32,7 +32,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/67b67cfa5a4be7178ec745a8/67e079e9346261a59c2be2c4_OG_patient%20LP.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
